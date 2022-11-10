@@ -121,9 +121,9 @@ countMonthDays("August")
 function wishMe(date) {
     let today = 09
     if (date > today) {
-        return ("days for your bithday is" + (date - today))
+        return ("days for your bithday is " + (date - today))
     }
-    else if (date = today) {
+    else if (date == today) {
         return ("happy bithday")
     }
     else {
@@ -131,4 +131,4 @@ function wishMe(date) {
     }
 
 }
-console.log(wishMe(25))
+console.log(wishMe(09))
